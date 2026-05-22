@@ -40,7 +40,15 @@ footer { margin-top:64px; padding-top:24px; border-top:2px solid var(--rule); fo
 .winner { color:var(--ok); font-weight:700; }
 .loser { color:var(--accent); font-weight:700; }
 @media (max-width:640px) { h1 { font-size:28px; } .subtitle { font-size:16px; } body { padding:24px 16px; font-size:15px; } }
-</style>
+
+        /* GitHub Pages Theme Overrides for Tables */
+        table tr { background-color: transparent !important; }
+        table tr:nth-child(even) { background-color: rgba(255,255,255,0.03) !important; }
+        table tr:nth-child(odd) { background-color: transparent !important; }
+        table td { background-color: transparent !important; color: var(--ink) !important; }
+        table th { background-color: rgba(15, 26, 46, 0.9) !important; }
+
+    </style>
 </head>
 <body>
 <div class="wrap">
